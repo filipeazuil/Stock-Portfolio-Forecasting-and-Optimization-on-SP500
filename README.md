@@ -16,8 +16,8 @@ To streamline the process, we started with the SPY ETF, which mirrors the S&P 50
 ### Data
 The dataset consists of daily trading data for all companies in the S&P 500, providing a comprehensive view of the index’s performance. This data includes essential features such as open, high, low, close prices, and trading volume for each stock.
 
-Training Period: 2010 to 2023
-Testing Period: January 2024
+- Training Period: 2010 to 2023
+- Testing Period: January 2024
 
 # Project Roadmap
 ### 1. Feature Engineering
