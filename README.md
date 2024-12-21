@@ -14,7 +14,10 @@ The stock market is highly volatile, making it challenging to predict returns an
 To streamline the process, we started with the SPY ETF, which mirrors the S&P 500. This allowed us to efficiently test and refine our models.
 
 ### Data
-The dataset consists of CT scan images from 1,010 patients. Each scan image includes detailed visual information that enables us to identify patterns associated with malignancy. Using feature extraction methods, we transform these images into a structured dataset, allowing for efficient analysis and model training.
+The dataset consists of daily trading data for all companies in the S&P 500, providing a comprehensive view of the index’s performance. This data includes essential features such as open, high, low, close prices, and trading volume for each stock.
+
+Training Period: 2010 to 2023
+Testing Period: January 2024
 
 # Project Roadmap
 ### 1. Feature Engineering
