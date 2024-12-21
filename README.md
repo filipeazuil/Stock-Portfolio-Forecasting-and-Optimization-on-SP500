@@ -100,8 +100,6 @@ To enhance model performance and tailor predictions to different types of stocks
   - Interpretability: Cluster analysis provided valuable insights into market segments, facilitating better understanding of sector behavior and risk dynamics.
 
 
-Here's a draft for the fifth point on portfolio optimization:
-
 ### 5. Portfolio Optimization
 Notebook: PortfolioOptimization - StockMarketPrediction.ipynb
 
