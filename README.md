@@ -1,2 +1,2 @@
-# Stock-behaviour-prediction-using-Machine-Learning
-Work in progress...
+# Stock Portfolio Forecasting and Optimization on S&P500
+
