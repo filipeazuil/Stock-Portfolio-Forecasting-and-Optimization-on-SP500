@@ -139,23 +139,23 @@ pip install -r requirements.txt
 
 Books:
 
-Jacinta Chan (Year). Automation of Trading Machines for Traders.
+- Jacinta Chan (Year). Automation of Trading Machines for Traders.
 
-Rolf Schlotmann and Moritz Czubatinski (Year). Technical Analysis Masterclass.
+- Rolf Schlotmann and Moritz Czubatinski (Year). Technical Analysis Masterclass.
 
-Rubén Villahermosa (Year). The Wyckoff Methodology in Depth.
+- Rubén Villahermosa (Year). The Wyckoff Methodology in Depth.
 
 Articles:
 
-Lim, M., & Zohren, S. (2021). Time-Series Forecasting with Deep Learning: A Survey. Highlighted the integration of deep learning models in financial forecasting, providing a broad perspective on state-of-the-art methodologies.
+- Lim, M., & Zohren, S. (2021). Time-Series Forecasting with Deep Learning: A Survey. Highlighted the integration of deep learning models in financial forecasting, providing a broad perspective on state-of-the-art methodologies.
 
-Wei Bao, Jun Yue, and Yulei Rao. A deep learning framework for financial time series using stacked autoencoders and long-short term memory. PloS one, 12(7):e0180944, 2017
+- Wei Bao, Jun Yue, and Yulei Rao. A deep learning framework for financial time series using stacked autoencoders and long-short term memory. PloS one, 12(7):e0180944, 2017
 
-Jigar Patel, Sahil Shah, Priyank Thakkar, and Ketan Kotecha. Predicting stock and stock price index movement using trend deterministic data preparation and machine learning techniques. Expert systems with applications, 42(1):259–268, 2015
+- Jigar Patel, Sahil Shah, Priyank Thakkar, and Ketan Kotecha. Predicting stock and stock price index movement using trend deterministic data preparation and machine learning techniques. Expert systems with applications, 42(1):259–268, 2015
 
-Chi-Ming Lin and Mitsuo Gen. Multi-criteria human resource allocation for solving multistage combinatorial optimization problems using multiobjective hybrid genetic algorithm. Expert Systems with Applications, 34(4):2480–2490, 2008.
+- Chi-Ming Lin and Mitsuo Gen. Multi-criteria human resource allocation for solving multistage combinatorial optimization problems using multiobjective hybrid genetic algorithm. Expert Systems with Applications, 34(4):2480–2490, 2008.
 
-Brockwell, P. J., & Davis, R. A. (2002). Introduction to Time Series and Forecasting (2nd ed.). Springer. Served as a foundational text for understanding time series methods and their applications in financial forecasting.
+- Brockwell, P. J., & Davis, R. A. (2002). Introduction to Time Series and Forecasting (2nd ed.). Springer. Served as a foundational text for understanding time series methods and their applications in financial forecasting.
 
-Glasserman, P. (2003). Monte Carlo Methods in Financial Engineering. Springer. Provided a detailed exploration of Monte Carlo methods in finance, enhancing risk management and pricing models.
+- Glasserman, P. (2003). Monte Carlo Methods in Financial Engineering. Springer. Provided a detailed exploration of Monte Carlo methods in finance, enhancing risk management and pricing models.
 
