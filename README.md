@@ -31,10 +31,50 @@ Description: Our approach involved creating a comprehensive set of features, inc
 - Macroeconomic Variables (interest rates, unemployment),
 - Market Conditions inspired by Wyckoff’s methodology.
 
-### 2. Model Implementation 
-Notebook: SPYForecasting.ipynb and StockMarketPrediction.ipynb
+### 2. Model Testing and Strategy Development
+Notebook: ModelTesting - SPYForecasting.ipynb
 
-Description: We implemented Deep Learning models such as LSTMs and Machine Learning models such as Random Forests and SVMs.
+Description:
+In this phase, we conducted extensive testing to refine our predictive strategy and identify the best configuration for the model. Our goal was to systematically evaluate the critical elements influencing model performance, ensuring optimal results. Key areas of experimentation included:
+
+- Output Definition:
+We tested whether predicting daily returns or closing prices yielded better performance. Ultimately, we opted for returns due to their stationary nature, leading to improved model stability and generalizability.
+
+- Normalization:
+Initial tests involved MinMax and Z-Score normalization for input features. However, normalization disrupted the relative relationships between features like moving averages and closing prices. After careful evaluation, we decided to proceed without normalization to preserve feature integrity.
+
+- Time Step Analysis:
+We experimented with different time step lengths (2, 5, 10, 20, 40) to determine the optimal window for capturing market patterns. Testing revealed that 5 time steps offered the best balance, improving both cumulative returns and directional accuracy.
+
+- Loss Function Optimization:
+To address issues of volatility mismatch, we explored various loss functions, including Mean Squared Error (MSE), Mean Absolute Error (MAE), and custom loss functions incorporating standard deviation penalties. Although the custom loss improved volatility alignment, it increased overall error, leading to MSE being selected for the final model.
+
+### 3. Model Implementation and Evaluation
+Notebook: ModelImplementation - SPYForecasting.ipynb and StockMarketPrediction.ipynb
+
+Description:
+This stage involved implementing a diverse range of machine learning models to predict daily returns and analyze market behavior. By comparing different architectures, we ensured our final model was not only accurate but also interpretable and efficient.
+
+Models Implemented:
+
+- Long Short-Term Memory (LSTM):
+
+  - A unidirectional LSTM was chosen as the primary model for capturing sequential patterns in financial data.
+  - Extensive testing showed that a single-layer LSTM with 32 units outperformed more complex multi-layer configurations.
+  - Bidirectional LSTM was also tested, but the performance difference was negligible, leading us to prioritize the simpler unidirectional approach.
+
+- Random Forest (RF):
+
+  - Implemented as a baseline model to compare against LSTM. The RF model demonstrated strong performance in non-sequential tasks, providing valuable insights into feature importance.
+  - GridSearchCV was used to tune hyperparameters such as the number of estimators, tree depth, and minimum samples per leaf.
+
+- Support Vector Machine (SVM):
+
+  - The SVM model was employed to test linear and non-linear relationships in the data. It performed well in capturing short-term patterns but lacked the sequential memory of LSTM.
+
+- Decision Tree (DT):
+
+  - As a simple baseline model, the decision tree offered fast predictions and interpretability, making it useful for feature analysis but limited in accuracy compared to ensemble and deep learning models.
 
 ### 3. Clustering
 Notebook: Dataengineering.ipynb
